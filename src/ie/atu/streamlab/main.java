@@ -58,7 +58,7 @@ public class main {
                                                     .average()
                                                     .orElse(0.0);
             System.out.printf("Average line length: %.2f\n", averageLength);
-                                                } catch (IOException e) {
+        } catch (IOException e) {
             System.err.println("Error reading file: " + e.getMessage());
         }
     }
